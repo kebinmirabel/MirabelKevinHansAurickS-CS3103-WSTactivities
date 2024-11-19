@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Sour Gummy", sans-serif;
+    margin: 0;
+    height: 100vh;
+    padding: 20px;
+    background-image: linear-gradient(to bottom right, #8FCB9B, #5B9279 50%, #495f47);
+    color: #EAE6E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  div#container {
+    width: auto;
+    height: auto;
+    background-color: #456990;
+    background-image: linear-gradient(to bottom right, #70acc3 1%, #456990, #4A4063);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #EAE6E5;
+  }
+  
+  textarea {
+    outline: none;
+    width: 500px;
+    height: 150px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #EAE6E5;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    transition: 0.3s ease;
+    color: #456990;
+    font-size: 20px;
+  }
+  
+  textarea:focus {
+    outline: none;
+    border-color: #5B9279;
+    width: 1200px;
+    height: 500px;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.4);
+  }
+
+  textarea::placeholder {
+    color: #456990;
+    font-size: 20px;
+    font-style: sans-serif;
+  }
+  
+  #wordcount, #sentenceCount {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #EAE6E5;
+    text-align: left;
+  }
+  
+  #wordcount {
+    font-weight: bold;
+  }
+  
+  #sentenceCount {
+    font-weight: bold;
+  }
+  
