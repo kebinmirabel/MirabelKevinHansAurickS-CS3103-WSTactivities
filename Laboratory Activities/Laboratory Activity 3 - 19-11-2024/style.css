@@ -60,7 +60,6 @@ body {
   textarea::placeholder {
     color: #456990;
     font-size: 20px;
-    font-style: sans-serif;
   }
   
   #wordcount, #sentenceCount {
